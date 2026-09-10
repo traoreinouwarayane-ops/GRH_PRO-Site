@@ -14,16 +14,52 @@ const dmSans = DM_Sans({
   weight: ["400", "500", "600", "700"],
 });
 
+const siteUrl = "https://grh-pro-site.vercel.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "GRH_PRO — Pilotez vos ressources humaines",
   description:
     "Une plateforme unique pour gérer le personnel, le temps, les congés, la paie — et offrir à la direction une vision claire.",
+  applicationName: "GRH_PRO",
+  keywords: [
+    "GRH",
+    "RH",
+    "ressources humaines",
+    "paie",
+    "pointage",
+    "congés",
+    "PME",
+    "Afrique",
+    "SaaS",
+  ],
+  authors: [{ name: "GRH_PRO" }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "GRH_PRO — Pilotez vos ressources humaines. De bout en bout.",
     description:
-      "Une plateforme unique pour gérer le personnel, le temps, les congés, la paie — et offrir à la direction une vision claire.",
+      "Personnel, temps, congés, paie et pilotage — une seule plateforme pour PME et organisations.",
+    url: siteUrl,
+    siteName: "GRH_PRO",
     locale: "fr_FR",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "GRH_PRO — Plateforme de pilotage des ressources humaines",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "GRH_PRO — Pilotez vos ressources humaines",
+    description:
+      "Personnel, temps, congés, paie et pilotage — une seule plateforme.",
+    images: ["/og-image.png"],
   },
   icons: {
     icon: "/logo-grh-pro-icon.png",
