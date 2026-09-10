@@ -20,13 +20,13 @@ export function FinalCta() {
               </h2>
               <div className="mt-7 flex w-full flex-col items-stretch justify-center gap-3 sm:mt-8 sm:flex-row sm:items-center sm:justify-center">
                 <MagneticButton
-                  href="mailto:contact@grhpro.example?subject=Demande%20de%20d%C3%A9mo%20GRH_PRO"
+                  href="mailto:traoreinouwarayane@gmail.com?subject=Demande%20de%20d%C3%A9mo%20GRH_PRO"
                   className="inline-flex w-full items-center justify-center rounded-md bg-accent px-6 py-3.5 text-sm font-semibold text-ink shadow-[0_10px_30px_rgba(245,166,32,0.25)] hover:bg-accent-deep sm:w-auto"
                 >
                   Planifier une démo
                 </MagneticButton>
                 <MagneticButton
-                  href="mailto:contact@grhpro.example?subject=Contact%20GRH_PRO"
+                  href="mailto:traoreinouwarayane@gmail.com?subject=Contact%20GRH_PRO"
                   className="inline-flex w-full items-center justify-center rounded-md border border-text-on-ink/25 px-6 py-3.5 text-sm font-semibold text-text-on-ink hover:border-text-on-ink/50 hover:bg-text-on-ink/5 sm:w-auto"
                 >
                   Nous écrire

@@ -91,7 +91,7 @@ export function Header() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <MagneticButton
-            href="#contact"
+            href="mailto:traoreinouwarayane@gmail.com?subject=Demande%20de%20d%C3%A9mo%20GRH_PRO"
             className={`inline-flex items-center justify-center rounded-md px-4 py-2.5 text-sm font-semibold ${
               overHero
                 ? "bg-accent text-ink hover:bg-accent-deep"
@@ -150,7 +150,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="mailto:traoreinouwarayane@gmail.com?subject=Demande%20de%20d%C3%A9mo%20GRH_PRO"
             className="mt-2 rounded-md bg-ink px-3 py-3 text-center text-sm font-semibold text-text-on-ink transition-transform hover:scale-[1.01]"
             onClick={() => setOpen(false)}
           >

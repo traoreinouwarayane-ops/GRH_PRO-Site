@@ -65,7 +65,7 @@ export function Hero() {
 
           <div className="hero-animate-cta mt-7 flex w-full flex-col gap-3 sm:mt-8 sm:flex-row sm:items-center">
             <MagneticButton
-              href="#contact"
+              href="mailto:traoreinouwarayane@gmail.com?subject=Demande%20de%20d%C3%A9mo%20GRH_PRO"
               className="inline-flex w-full items-center justify-center rounded-md bg-accent px-6 py-3.5 text-sm font-semibold text-ink shadow-[0_10px_30px_rgba(245,166,32,0.25)] hover:bg-accent-deep sm:w-auto"
             >
               Demander une démo
