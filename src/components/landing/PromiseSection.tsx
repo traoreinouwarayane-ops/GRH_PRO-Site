@@ -18,7 +18,7 @@ const spaces = [
     title: "Vision direction",
     label: "DG",
     image:
-      "https://images.unsplash.com/photo-1542744173-8e2bd1159915?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80",
   },
 ];
 
